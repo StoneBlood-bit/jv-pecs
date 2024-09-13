@@ -1,5 +1,7 @@
 package core.mate.academy.model;
 
+import java.util.List;
+
 /**
  * Add some custom fields that could be only in Bulldozer
  * Do not remove no-args constructor
