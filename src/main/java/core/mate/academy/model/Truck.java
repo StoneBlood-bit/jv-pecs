@@ -6,7 +6,12 @@ package core.mate.academy.model;
  */
 public class Truck extends Machine {
     private String model;
+
     public Truck() {
+    }
+
+    public Truck(String model) {
+        this.model = model;
     }
 
     @Override
