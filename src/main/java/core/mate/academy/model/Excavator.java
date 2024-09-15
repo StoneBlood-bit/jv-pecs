@@ -10,6 +10,14 @@ public class Excavator extends Machine {
     public Excavator() {
     }
 
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
     public Excavator(String model) {
         this.model = model;
     }

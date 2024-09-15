@@ -10,6 +10,14 @@ public class Truck extends Machine {
     public Truck() {
     }
 
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
     public Truck(String model) {
         this.model = model;
     }

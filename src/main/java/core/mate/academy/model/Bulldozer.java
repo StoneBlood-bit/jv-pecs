@@ -10,6 +10,14 @@ public class Bulldozer extends Machine {
     public Bulldozer() {
     }
 
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
     public Bulldozer(String model) {
         this.model = model;
     }
@@ -18,4 +26,5 @@ public class Bulldozer extends Machine {
     public void doWork() {
         System.out.println("Bulldozer started to work");
     }
+
 }
