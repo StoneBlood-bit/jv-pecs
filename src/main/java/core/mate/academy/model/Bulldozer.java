@@ -10,16 +10,16 @@ public class Bulldozer extends Machine {
     public Bulldozer() {
     }
 
-    public void setModel(String model){
+    public Bulldozer(String model) {
+        this.model = model;
+    }
+
+    public void setModel(String model) {
         this.model = model;
     }
 
     public String getModel() {
         return model;
-    }
-
-    public Bulldozer(String model) {
-        this.model = model;
     }
 
     @Override
